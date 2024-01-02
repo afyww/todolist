@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const Todolist = () => {
   return (
-<div className='mx-auto space-y-4 my-auto bg-white p-10 xl:p-24 rounded-3xl'>
+<div className='mx-auto space-y-4 my-auto bg-white p-3 xl:p-24 rounded-3xl'>
     <h1 className='text-6xl font-bold'>Todo List</h1>
     <div className='gap-3 flex'>
     <input placeholder='Add your new todo w-full' className='border-2 p-2 w-full' type="text" />
